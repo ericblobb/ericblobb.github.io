@@ -37,7 +37,7 @@
         <div class="twelve columns" id="nav">
             <ul class="vert-align">
                 <li><a href="#">Home</a></li>
-                <li><a href="#about">About Me</a></li>
+                <li><a href="#body">About Me</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact Me</a></li>
             </ul>
@@ -51,7 +51,7 @@
         </div>
     </div>
     <section id="main">
-        <div class="row" id="body about">
+        <div class="row me" id="body">
             <div class="twelve columns">
                 <h4>About Me</h4>
                 <p>I am currently a high school sophomore highly interested in programming and information security.
@@ -65,34 +65,36 @@
         <div class="row" id="portfolio">
             <div class="twelve columns">
                 <h4>Portfolio</h4>
-                <div class="project">
-                    <h3 class="vert-align center-text">Project Name</h3>
-                </div>
-                <div class="project">
-                    <h3 class="vert-align center-text">Project Name</h3>
-                </div>
-                <div class="project">
-                    <h3 class="vert-align center-text">Project Name</h3>
-                </div>
+                <a href="http://www.chantillycode.club" target="_blank">
+                    <div class="project" id="codeClub">
+                        <div class="vert-align center-text">
+                            <h3>CodeClub Website</h3>
+                            <p>The main site for the Chantilly CodeClub, founded by myself, Dheeraj Bandaru, and Dominic Philip.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="http://ericblobb.github.io/encrypt" target="_blank">
+                    <div class="project" id="encrypt">
+                        <div class="vert-align center-text">
+                            <h3>ROT-13 Encryption Tool</h3>
+                            <p>A tool to encrypt any string of Latin letters using ROT-13 encryption, commonly known as the Caesar Cipher.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="http://ericblobb.github.io/pongJS" target="_blank">
+                    <div class="project" id="pong">
+                        <div class="vert-align center-text">
+                            <h3>PongJS</h3>
+                            <p>The classic game, Pong, written in pure HTML, CSS, and JavaScript.</p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="row" id="contact">
             <h4>Contact Me</h4>
-            <form>
-                <div class="row">
-                    <div class="twelve columns">
-                        <label for="exampleEmailInput">Your email</label>
-                        <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
-                    </div>
-                </div>
-                <label for="exampleMessage">Message</label>
-                <textarea class="u-full-width" placeholder="Hi Eric..." id="exampleMessage"></textarea>
-                <label class="example-send-yourself-copy">
-                    <input type="checkbox">
-                    <span class="label-body">Send a copy to yourself</span>
-                </label>
-                <input class="button-primary" type="submit" value="Submit">
-            </form>
+            <p>Email: <a href="mailto:ericblobb@gmail.com">ericblobb@gmail.com</a></p>
+            <p>Phone Number: +61 (703) 509 1998</p>
         </div>
     </section>
     <div class="row">

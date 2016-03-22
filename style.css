@@ -2,6 +2,14 @@
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .vert-align {
     position: relative;
     top: 50%;
@@ -16,6 +24,10 @@
 #body {
     border-top: 1px solid black;
     padding-top: 10px;
+}
+
+.me h4 {
+    margin-bottom: 10px;
 }
 
 #main {
@@ -66,16 +78,29 @@
 .project {
     height: 200px;
     background-color: #f1f1f1;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
+    color: black;
+}
+
+.project h3 {
+    margin-bottom: 5px;
+}
+
+.project p {
+    margin-top: 0;
+}
+
+#portfolio a:hover {
+    color: black;
 }
 
 #copyright {
     text-align: center;
+    margin-top: 10px;
 }
 
 #copyright p {
-    margin-top: 10px;
-    margin-bottom: 0;
+    margin: 10px;
 }
 
 @media (min-width: 750px) {
@@ -83,3 +108,43 @@
         font-size: 120%;
     }
 }
+
+
+/*CONTACT*/
+
+#contact {
+    position: relative;
+    bottom: -10px;
+}
+
+#contact h4 {
+    margin-bottom: 10px;
+}
+
+#contact p {
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+
+#contact p:nth-child(3) {
+    margin-bottom: 30px;
+}
+
+/*#codeClub {
+    background: url(images/codeclub_blur.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#encrypt {
+    background: url(images/encrypt_blur.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#pong {
+    background: url(images/pong_blur.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}*/
